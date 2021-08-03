@@ -897,7 +897,7 @@ void ZEDWrapperNodelet::readParameters()
   mLeftCamFrameId = mCameraName + "_left_camera_frame";
   mLeftCamOptFrameId = mCameraName + "_left_camera_optical_frame";
   mRightCamFrameId = mCameraName + "_right_camera_frame";
-  mRightCamOptFrameId = mCameraName + "_right_camera_optical_frame";
+  mRightCamOptFrameId = mLeftCamOptFrameId;
 
   mBaroFrameId = mCameraName + "_baro_link";
   mMagFrameId = mCameraName + "_mag_link";
